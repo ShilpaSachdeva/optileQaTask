@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="133778" started-at="2018-09-05T10:37:37Z" finished-at="2018-09-05T10:39:51Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="133778" started-at="2018-09-05T10:37:37Z" finished-at="2018-09-05T10:39:51Z">
+      <class name="com.Dropbox.testcases.DroboxTestCases">
+        <test-method status="PASS" signature="initialization()[pri:0, instance:com.Dropbox.testcases.DroboxTestCases@1d057a39]" name="initialization" is-config="true" duration-ms="174" started-at="2018-09-05T16:07:37Z" finished-at="2018-09-05T16:07:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialization -->
+        <test-method status="PASS" signature="invokeBrowser()[pri:0, instance:com.Dropbox.testcases.DroboxTestCases@1d057a39]" name="invokeBrowser" is-config="true" duration-ms="11894" started-at="2018-09-05T16:07:37Z" finished-at="2018-09-05T16:07:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invokeBrowser -->
+        <test-method status="PASS" signature="verifyBlankEmailIdError()[pri:0, instance:com.Dropbox.testcases.DroboxTestCases@1d057a39]" name="verifyBlankEmailIdError" duration-ms="5801" started-at="2018-09-05T16:07:49Z" finished-at="2018-09-05T16:07:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyBlankEmailIdError -->
+        <test-method status="PASS" signature="afterAMethod(org.testng.ITestResult)[pri:0, instance:com.Dropbox.testcases.DroboxTestCases@1d057a39]" name="afterAMethod" is-config="true" duration-ms="0" started-at="2018-09-05T16:07:55Z" finished-at="2018-09-05T16:07:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyBlankEmailIdError status=SUCCESS method=DroboxTestCases.verifyBlankEmailIdError()[pri:0, instance:com.Dropbox.testcases.DroboxTestCases@1d057a39] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterAMethod -->
+        <test-method status="PASS" signature="verifyInvalidEmailPasswordError()[pri:1, instance:com.Dropbox.testcases.DroboxTestCases@1d057a39]" name="verifyInvalidEmailPasswordError" duration-ms="2580" started-at="2018-09-05T16:07:55Z" finished-at="2018-09-05T16:07:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyInvalidEmailPasswordError -->
+        <test-method status="PASS" signature="afterAMethod(org.testng.ITestResult)[pri:0, instance:com.Dropbox.testcases.DroboxTestCases@1d057a39]" name="afterAMethod" is-config="true" duration-ms="0" started-at="2018-09-05T16:07:57Z" finished-at="2018-09-05T16:07:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyInvalidEmailPasswordError status=SUCCESS method=DroboxTestCases.verifyInvalidEmailPasswordError()[pri:1, instance:com.Dropbox.testcases.DroboxTestCases@1d057a39] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterAMethod -->
+        <test-method status="PASS" signature="verifyDropboxLogin(java.lang.String, java.lang.String)[pri:2, instance:com.Dropbox.testcases.DroboxTestCases@1d057a39]" name="verifyDropboxLogin" duration-ms="569" started-at="2018-09-05T16:07:58Z" data-provider="getData" finished-at="2018-09-05T16:07:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[shilpa.sachdeva@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDropboxLogin -->
+        <test-method status="PASS" signature="afterAMethod(org.testng.ITestResult)[pri:0, instance:com.Dropbox.testcases.DroboxTestCases@1d057a39]" name="afterAMethod" is-config="true" duration-ms="1" started-at="2018-09-05T16:07:58Z" finished-at="2018-09-05T16:07:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyDropboxLogin status=SUCCESS method=DroboxTestCases.verifyDropboxLogin(java.lang.String, java.lang.String)[pri:2, instance:com.Dropbox.testcases.DroboxTestCases@1d057a39] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterAMethod -->
+        <test-method status="PASS" signature="verifyDropboxUpload()[pri:3, instance:com.Dropbox.testcases.DroboxTestCases@1d057a39]" name="verifyDropboxUpload" duration-ms="19507" started-at="2018-09-05T16:07:58Z" depends-on-methods="com.Dropbox.testcases.DroboxTestCases.verifyDropboxLogin" finished-at="2018-09-05T16:08:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDropboxUpload -->
+        <test-method status="PASS" signature="afterAMethod(org.testng.ITestResult)[pri:0, instance:com.Dropbox.testcases.DroboxTestCases@1d057a39]" name="afterAMethod" is-config="true" duration-ms="0" started-at="2018-09-05T16:08:18Z" finished-at="2018-09-05T16:08:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyDropboxUpload status=SUCCESS method=DroboxTestCases.verifyDropboxUpload()[pri:3, instance:com.Dropbox.testcases.DroboxTestCases@1d057a39] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterAMethod -->
+        <test-method status="PASS" signature="verifyCreateFolder()[pri:4, instance:com.Dropbox.testcases.DroboxTestCases@1d057a39]" name="verifyCreateFolder" duration-ms="19147" started-at="2018-09-05T16:08:18Z" depends-on-methods="com.Dropbox.testcases.DroboxTestCases.verifyDropboxLogin" finished-at="2018-09-05T16:08:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCreateFolder -->
+        <test-method status="PASS" signature="afterAMethod(org.testng.ITestResult)[pri:0, instance:com.Dropbox.testcases.DroboxTestCases@1d057a39]" name="afterAMethod" is-config="true" duration-ms="0" started-at="2018-09-05T16:08:37Z" finished-at="2018-09-05T16:08:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyCreateFolder status=SUCCESS method=DroboxTestCases.verifyCreateFolder()[pri:4, instance:com.Dropbox.testcases.DroboxTestCases@1d057a39] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterAMethod -->
+        <test-method status="PASS" signature="verifyDrobboxLogout()[pri:5, instance:com.Dropbox.testcases.DroboxTestCases@1d057a39]" name="verifyDrobboxLogout" duration-ms="3199" started-at="2018-09-05T16:08:37Z" depends-on-methods="com.Dropbox.testcases.DroboxTestCases.verifyDropboxLogin" finished-at="2018-09-05T16:08:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDrobboxLogout -->
+        <test-method status="PASS" signature="afterAMethod(org.testng.ITestResult)[pri:0, instance:com.Dropbox.testcases.DroboxTestCases@1d057a39]" name="afterAMethod" is-config="true" duration-ms="1" started-at="2018-09-05T16:08:40Z" finished-at="2018-09-05T16:08:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyDrobboxLogout status=SUCCESS method=DroboxTestCases.verifyDrobboxLogout()[pri:5, instance:com.Dropbox.testcases.DroboxTestCases@1d057a39] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterAMethod -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.Dropbox.testcases.DroboxTestCases@1d057a39]" name="closeBrowser" is-config="true" duration-ms="70538" started-at="2018-09-05T16:08:40Z" finished-at="2018-09-05T16:09:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="cleanup()[pri:0, instance:com.Dropbox.testcases.DroboxTestCases@1d057a39]" name="cleanup" is-config="true" duration-ms="315" started-at="2018-09-05T16:09:51Z" finished-at="2018-09-05T16:09:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanup -->
+      </class> <!-- com.Dropbox.testcases.DroboxTestCases -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

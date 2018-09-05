@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="com.Google.testcases.GoogleTestCases">
+        <methods>
+          <include name="verifyMapsTabSearchResult"/>
+          <include name="verifyGoogleSearchInvalidString"/>
+          <include name="verifyImagesTabSearchResult"/>
+          <include name="verifyIAmFeelingLuckyLink"/>
+          <include name="closeBrowser"/>
+          <include name="cleanup"/>
+          <include name="initialization"/>
+          <include name="afterAMethod"/>
+          <include name="verifyVideosTabSearchResult"/>
+          <include name="verifyGoogleSearchValidString"/>
+          <include name="verifyNewsTabSearchResult"/>
+          <include name="verifySearchResultsClickFirstLink"/>
+        </methods>
+      </class> <!-- com.Google.testcases.GoogleTestCases -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
